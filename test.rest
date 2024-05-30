@@ -1,0 +1,76 @@
+###
+get http://localhost:2222/emplist
+
+
+###
+post http://localhost:2222/saveemp
+Content-Type: application/json
+
+{
+  "myname":"Api Emp 3",
+  "mysalary":"17000",
+  "mycity":"Bangalore",
+  "mydept":"Marketing"
+    
+}
+
+
+###
+delete http://localhost:2222/deleteemp
+Content-Type: application/json
+
+{
+    "id":"6"
+   
+    
+}
+
+
+###
+post http://localhost:2222/login
+Content-Type: application/json
+
+{
+    "email":"hr@gamil.com",
+    "password":"123"
+   
+    
+}
+
+
+###
+put http://localhost:2222/updateemp
+Content-Type: application/json
+
+{
+  "myname":"Emplyoee 99",
+  "mysalary":"70000",
+  "mycity":"Mumbai",
+  "mydept":"Marketing",
+  "id":"7"
+    
+}
+
+
+###
+post http://localhost:2222/savehr
+{
+   "email":"nikhil@gmail.com",
+   "password":"1234",
+   "fullname":"Nikhil",
+   "mobile":"9866418144"
+}
+
+
+###
+delete http://localhost:2222/sendmail
+Content-Type: application/json
+
+{
+  
+   
+    
+}
+
+
+
